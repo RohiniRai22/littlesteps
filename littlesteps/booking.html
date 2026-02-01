@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Service | LittleSteps</title>
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Alertify CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs/build/css/alertify.min.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs/build/css/themes/default.min.css"/>
+</head>
+
+<body>
+<header>
+    <h1>LittleSteps</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+    </nav>
+</header>
+
+<section class="form-section">
+    <h2>Book Baby Care Service</h2>
+
+    <form id="bookingForm">
+        <input type="text" id="parent" placeholder="Parent Name" required>
+        <input type="number" id="age" placeholder="Baby Age (months)" min="0" max="24" required>
+
+        <select id="service" required>
+            <option value="">Select Service</option>
+            <option>Newborn Bath</option>
+            <option>Baby Massage</option>
+            <option>Mother Care</option>
+            <option>Sleep Routine</option>
+            <option>Hygiene Care</option>
+        </select>
+
+        <div class="datetime">
+            <input type="date" id="date" required>
+            <input type="time" id="time" required>
+        </div>
+
+       
+        <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9]{10}" maxlength="10" required title="Phone number must be exactly 10 digits">
+
+
+        <input type="email" id="email" placeholder="Email Address" required>
+
+        <button type="submit" class="btn">Confirm Booking</button>
+        <div class="back-button">
+            <button type="button" class="btn" onclick="history.back()">← Back</button>
+        </div>
+    </form>
+</section>
+
+<footer>© 2026 LittleSteps Baby Care</footer>
+
+<!-- Alertify JS -->
+<script src="https://cdn.jsdelivr.net/npm/alertifyjs/build/alertify.min.js"></script>
+
+<!-- Your custom JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

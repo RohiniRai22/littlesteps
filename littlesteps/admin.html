@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin | Bookings</title>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body onload="loadBookings()">
+
+<h2>Booking Requests</h2>
+<!-- Reset Bookings Button 
+<button onclick="resetBookings()">Reset Bookings</button> -->
+
+<table border="1" id="bookingTable">
+    <tr>
+        <th>Parent</th>
+        <th>Baby Age</th>
+        <th>Service</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Phone Number</th>
+        <th>Email Address</th>
+    </tr>
+</table>
+<script>
+
+function resetBookings() {
+    localStorage.removeItem("bookings"); // deletes all saved bookings
+    alert("All bookings have been deleted!");
+    location.reload(); // refreshes the page to show empty table
+}
+</script>
+
+</body>
+</html>
