@@ -20,9 +20,9 @@ Key Features – LittleSteps
 •	Responsive design for mobile and desktop
 
 Tech Stack – LittleSteps
-•	HTML5 – Structure of the website
-•	CSS3 – Styling and responsive design
-•	JavaScript– Form handling and validation
+1	HTML5 – Structure of the website
+2	CSS3 – Styling and responsive design
+3	JavaScript– Form handling and validation
 •	LocalStorage – Storing booking data in browser 
 
 
