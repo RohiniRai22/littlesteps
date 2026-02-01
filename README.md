@@ -21,12 +21,16 @@ Key Features – LittleSteps
 
 Tech Stack – LittleSteps
 1	HTML5 – Structure of the website
+
 2	CSS3 – Styling and responsive design
+
 3	JavaScript– Form handling and validation
-•	LocalStorage – Storing booking data in browser 
+
+4	LocalStorage – Storing booking data in browser 
 
 
 Steps to Run LittleSteps
+
 Open Directly in Browser
 1.	Go to your project folder where index.html is located.
 2.	Double-click index.html.
